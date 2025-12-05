@@ -1,0 +1,17 @@
+[project]
+name = "gitscrum"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "aiosmtplib>=4.0.2",
+    "apscheduler>=3.11.0",
+    "fastapi>=0.119.0",
+    "imapclient>=3.0.1",
+    "pydantic-ai>=1.0.18",
+    "python-dotenv>=1.1.1",
+    "pyzmail36>=1.0.5",
+    "sqlalchemy>=2.0.44",
+    "uvicorn>=0.37.0",
+]
